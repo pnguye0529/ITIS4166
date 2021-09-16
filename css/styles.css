@@ -1,0 +1,137 @@
+body {
+  text-align: center;
+  font-size: 100%;
+  background-color: black;
+  color: white;
+  width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header container */
+.logo {
+  width: 10%;
+}
+
+.slogan {
+  margin: 25px 0 0 10px;
+  color: gray;
+}
+
+hr {
+  margin: 0;
+}
+
+/* main-content-area-container */
+.main-content-area-container {
+  position: relative;
+}
+
+.bg-native-land {
+  width: 100%;
+}
+
+.text-container {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  right: 35%;
+  border: inset;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: gray;
+  border-bottom-color: gray;
+  padding: 2%;
+  font-size: 1rem;
+}
+
+.preamble {
+  font-style: italic;
+  font-size: 3.5rem;
+  line-height: 2;
+}
+
+/* footer container */
+.fab {
+  margin-right: 20px;
+  color: gray;
+}
+
+.navbar-dark .navbar-brand {
+  color: gray;
+  font-size: 1rem;
+}
+
+
+/* connections.html */
+.event-container {
+  background-color: black;
+  margin: 2%;
+  padding: 2%;
+  color: white;
+}
+.event-images {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.col-4 {
+  margin-bottom: 5%;
+}
+.event-content {
+  padding-bottom: 25px;
+}
+
+/* form - new connection */
+.form-container {
+  margin: 5% 15%;
+}
+
+.form-control {
+  margin-bottom: 5%;
+}
+
+.form-btn {
+  text-align: right;
+}
+
+/* connection */
+.connection-container {
+  text-align: left;
+}
+
+.connection-header {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.connection-content {
+  margin-left: 15%;
+  padding: 5% 0 0 5%;
+  line-height: 2;
+}
+
+.connection-detail {
+  margin-left: 10%;
+  font-size: 1.5rem;
+  padding-bottom: 3%;
+}
+
+.connection-img {
+  margin-left: 35%;
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.connection-button {
+  margin: 1% 5% 0 0;
+}
