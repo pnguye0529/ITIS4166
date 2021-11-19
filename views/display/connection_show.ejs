@@ -1,0 +1,39 @@
+<%- include('../partials/header.ejs')%>
+
+    <!-- main content -->
+    <div class="connection-container">
+      <!-- update and delete button -->
+      <div class="col-lg-12 form-btn">
+        <form>
+          <button class="btn btn-light connection-button" type="submit" formmethod="GET" formaction="/connections/<%=connection.id%>/edit">Edit</button>
+          <button class="btn btn-light connection-button" type="submit" formmethod="POST" formaction="/connections/<%=connection.id%>?_method=DELETE">Delete</button>  
+        </form>
+           
+      </div>
+      <!-- offline meeting -->
+      <div class="connection-header">
+        <h1><%= connection.name %> </h1>
+      </div>
+        <!-- First offline meeting -->
+        <div class="row ">
+          <div class="col-4">
+            <img class="img-fluid connection-img" src="<%= connection.image %> " alt="offline-meeting2">
+          </div>
+          <div class="col-lg-6 col-sm-12 connection-content">
+            <h3>Hosted by <%= connection.host_name %> </h3>
+            <p>
+              <%= connection.date %>  <br>
+              <%= connection.start_time %>  - <%= connection.end_time %>  <br>
+              <%= connection.location %>       
+            </p>
+          </div>
+        </div>
+        <div class="connection-detail col-6">
+          <h2>Details</h2>
+          <p><%= connection.details %> </p>
+      </div>
+    </div>
+
+<%- include('../partials/footer.ejs')%>
+
+

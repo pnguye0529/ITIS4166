@@ -1,0 +1,17 @@
+<%- include('../partials/header.ejs')%>
+
+  <!-- Main Contents -->
+  <div class="event-container">
+    <div class="row">
+      <% if (connections.length) {%>
+        <p>Choose a connection to view</p>
+        <% connections.forEach(connection =>{ %>
+          <a href="/connections/<%=connection.id%> "><p><%=connection.name%> </p></a>
+        <% });  
+      } else  {%>
+        <p>There is no connection to display</p>
+      <%} %> 
+    </div>
+  </div>
+
+<%- include('../partials/footer.ejs')%>
