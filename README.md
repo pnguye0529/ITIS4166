@@ -1,3 +1,2 @@
-# WebDevelopment
-# ITIS4166
-# ITIS4166
+# Network Based Application Development
+# Developed a dynamic application that allow user to create connections between them. 
